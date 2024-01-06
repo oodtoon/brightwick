@@ -1,0 +1,23 @@
+:root {
+  --brightwick-red: #ed1c24;
+}
+
+body {
+  margin: 0;
+  color: white;
+  background-color: black;
+}
+
+a,
+button {
+  cursor: pointer;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
