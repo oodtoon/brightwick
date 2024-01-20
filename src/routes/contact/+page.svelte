@@ -5,18 +5,18 @@
 
 <Container>
   <Title title={"Schedule a Call With Us!"} />
-
-  <iframe
-    class="calendar"
-    title="Schedule A Call With Us!"
-    src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ28xZKwYu9zkxJxkHjQvFOIJ2AbTzuGW0KRVmsX3z5hdbveozoHLMXcDJUIAcCTos0FdtxXGcDK?pli=1"
-  ></iframe>
 </Container>
+
+<iframe
+class="calendar"
+title="Schedule A Call With Us!"
+src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ28xZKwYu9zkxJxkHjQvFOIJ2AbTzuGW0KRVmsX3z5hdbveozoHLMXcDJUIAcCTos0FdtxXGcDK?pli=1"
+></iframe>
 
 <style>
   .calendar {
-    width: 90%;
-    min-height: 800px;
+    width: 100vw;
+    height: 100vh;
     margin: auto;
   }
 </style>

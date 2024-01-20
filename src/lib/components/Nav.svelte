@@ -85,6 +85,9 @@
     justify-content: space-between;
     margin: 0 5em 0 5em;
     padding: 1em;
+    border-bottom: 3px solid var(--brightwick-red);
+    border-right: 3px solid var(--brightwick-red);
+    border-radius: 4px;
   }
 
   .nav-item-container {

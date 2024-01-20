@@ -1,6 +1,6 @@
 <script lang="ts">
-  import whiteLogo from "$lib/images/logos/whiteLogoSlim.png";
   import backgroundImg from "$lib/images/podcastStill_1.1.1.png";
+
 </script>
 
 <div class="landing-img-container">
@@ -70,5 +70,12 @@
     height: 10px;
     width: 10px;
     border-radius: 50% 50%;
+  }
+
+  @media (max-width: 500px) {
+    .list {
+      top: 15%;
+      width: 80vw;
+    }
   }
 </style>
