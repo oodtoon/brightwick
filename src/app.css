@@ -1,11 +1,16 @@
 :root {
   --brightwick-red: #ed1c24;
+  --brightwick-shadow: -7.7px 0px 8.7px rgba(143, 62, 62, 0.5),
+    7.7px 0px 8.7px rgba(143, 62, 62, 0.5),
+    0px 7.7px 8.7px -2.7px rgba(143, 62, 62, 0.5),
+    0px -7.7px 8.7px -2.7px rgba(143, 62, 62, 0.5);
 }
 
 body {
   margin: 0;
   color: white;
   background-color: black;
+  font-family: "Kanit", sans-serif;
 }
 
 a,

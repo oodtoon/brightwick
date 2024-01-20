@@ -10,21 +10,30 @@
 <footer>
   <div class="footer-content-container">
     <div class="content">
-      <img class="logo" src={whiteLogo} alt="Bright Wick Productions" />
+      <a href="/">
+        <img class="logo" src={whiteLogo} alt="Bright Wick Productions" />
+      </a>
       <div class="socials-container">
-        <YouTube />
-        <Insta />
-        <Twitch />
+        <a href="www.youtube.com">
+          <YouTube />
+        </a>
+        <a href="www.instagram.com">
+          <Insta />
+        </a>
+        <a href="www.twitch.com">
+          <Twitch />
+        </a>
       </div>
     </div>
     <div class="links-container">
-      <a href="/">Pricing</a>
-      <a href="/">About</a>
-      <a href="/">Story</a>
-      <a href="/">Contact Us</a>
+      <a href="/pricing">Pricing</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact Us</a>
     </div>
   </div>
-  All rights reserved {date.getFullYear()}
+  <div class="rights">
+    All rights reserved {date.getFullYear()}
+  </div>
 </footer>
 
 <style>
@@ -61,5 +70,19 @@
   .logo {
     max-width: 200px;
     max-height: 55.55px;
+  }
+
+  .rights {
+    color: var(--brightwick-red)
+  }
+
+  @media (max-width: 350px) {
+    .footer-content-container {
+      flex-direction: column;
+    }
+
+    .links-container {
+      margin: auto;
+    }
   }
 </style>

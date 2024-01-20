@@ -1,6 +1,8 @@
-<script lang="ts"></script>
+<script lang="ts">
+  export let isExamples = false 
+</script>
 
-<div class="container">
+<div class="container" class:isExamples>
   <slot />
 </div>
 
@@ -10,5 +12,9 @@
     display: flex;
     flex-direction: column;
     gap: 2em;
+  }
+
+  .isExamples {
+    gap: 5em
   }
 </style>
