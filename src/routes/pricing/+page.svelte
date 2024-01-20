@@ -110,7 +110,7 @@
 
   @media (max-width: 1000px) {
     .services-container {
-      width: 50vw;
+      width: 90vw;
       flex-wrap: wrap;
     }
 
@@ -119,4 +119,5 @@
       flex-wrap: wrap;
     }
   }
+  
 </style>

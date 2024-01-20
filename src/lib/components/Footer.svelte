@@ -40,6 +40,7 @@
   footer {
     display: flex;
     flex-direction: column;
+    margin-top: 2em;
   }
 
   .footer-content-container {
